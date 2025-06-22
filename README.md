@@ -23,12 +23,18 @@ This project bridges **distributional semantics** and **biological ontologies** 
 - These findings emphasise the need to supplement language-based models with **structured data** (e.g., ontologies, knowledge graphs) and expert validation for applications in functional biology.
 
 ## How to Use / Reproduce
-1. Run notebook in order (in the folder _notebooks_):
-_00_read_ontology_files.ipynb_: Read in ontologies (GO and PTO) and save them as .owl
+1. Download data (.pkl) for ontologies and embeddings from the folder _data_ (optionally, you can also generate data yourself by following the next step)
+2. Run notebook in order (in the folder _notebooks_):
+
+_00_read_ontology_files.ipynb_: Read in ontologies (GO and PTO) and save them as .owl and .pkl
 
 _01_ontology_to_embeddings.ipynb_: Encode ontology labels from owl-files into vector embeddings and save
 
 _02_compare_embedding_based_clustering_WIP.ipynb_: Read PTO label embeddings for K-Means and Hierarchical Clustering
 
 _03_predict_gene_phenotype_relationships_WIP.ipynb_: Read PTO and GO label embeddings and compute similarities
-2. 
+
+## Future Work
+- Integrate **graph-based models** to improve biological specificity
+- Explore **hybrid embedding strategies** using symbolic constraints
+- Collaborate **with plant science experts** to curate and expand validation sets
