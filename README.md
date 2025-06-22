@@ -1,5 +1,5 @@
 ## 🕸🌱 Semantic Alignment of Gene and Trait Ontologies Using Vector Embeddings
-This project bridges **distributional semantics** and **biological ontologies** to explore whether embedding models can recover and reason about relationships within and between genes (GO) and plant traits (PTO). By mapping biological concepts into a continuous vector space, we examine the feasibility of **trait categorisation**, **gene–trait inference**, and the future integration of **language-based generalisation** in bio-ontological knowledge systems.
+This ongoing project bridges **distributional semantics** and **biological ontologies** to explore whether embedding models can recover and reason about relationships within and between genes (GO) and plant traits (PTO). By mapping biological concepts into a continuous vector space, we examine the feasibility of **trait categorisation**, **gene–trait inference**, and the future integration of **language-based generalisation** in bio-ontological knowledge systems.
 
 **Impact**: This approach may enable scalable, **zero-shot categorisation** of novel traits and facilitate ontology-aware gene–phenotype predictions, contributing to both plant biology and semantic AI applications, such as knowledge graph completion, explainable trait discovery, and bio-NLP.
 
