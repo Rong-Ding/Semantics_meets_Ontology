@@ -1,0 +1,17 @@
+# Ignore temporary files
+*.log
+*.tmp
+*.bak
+__pycache__/
+.DS_Store
+
+# Ignore local config or secrets
+.env
+config_local.py
+
+# Ignore Jupyter checkpoint folders
+.ipynb_checkpoints/
+
+# Ignore specific OWL files
+data/go.owl
+data/to.owl
